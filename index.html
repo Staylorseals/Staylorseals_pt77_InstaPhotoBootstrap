@@ -32,21 +32,22 @@
                         <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                      </div>
-                  <div class="modal-body">
-                     <p>Caption:</p>
-                           <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>  
-                           <div class="d-flex my-3">      
-                              <button class="btn btn-light border border-dark mx-2">
-                                 <i class="fa-solid fa-camera-retro"></i>
-                              </button>
-                              <button class="btn btn-light border border-dark">
-                                 <i class="fa-solid fa-location-dot"></i>
-                              </button>
-                           </div>             
-                           <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                              <button type="button" class="btn btn-success">Publish</button>
-                           </div>
+                     <div class="modal-body">
+                        <p>Caption:</p>
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                           id="floatingTextarea"></textarea>
+                        <div class="d-flex my-3">
+                           <button class="btn btn-light border border-dark mx-2">
+                              <i class="fa-solid fa-camera-retro"></i>
+                           </button>
+                           <button class="btn btn-light border border-dark">
+                              <i class="fa-solid fa-location-dot"></i>
+                           </button>
+                        </div>
+                        <div class="modal-footer">
+                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                           <button type="button" class="btn btn-success">Publish</button>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -68,174 +69,229 @@
          </div>
       </nav>
 
-   <!-- page toggle -->
-   <div>
-      <ul class="nav nav-tabs d-flex justify-content-center">
-         <li class="nav-item">
-            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
-               <i class="fa-solid fa-square fa-lg px-2 py-2"></i>
-            </button>
-         </li>
-         <li class="nav-item">
-            <button class="nav-link" id="grid-tab" data-bs-toggle="tab" data-bs-target="#grid" type="button" role="tab" aria-controls="grid" aria-selected="false">
-               <i class="fa-solid fa-table-cells fa-lg px-2 py-2"></i>
-            </button>
-         </li>
-      </ul>
-   </div>
-
-   <div class="tab-content my-2">
-      <!-- post -->
-      <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-         <!-- start of card -->
-         <div class="card mx-auto" style="width: 30rem;">
-            <div class="titleOrder_container">
-               <div class="title_container">
-                  <h5 class="card-title">Tasty tacos!</h5>
-               </div>
-               <div class="order_container">
-                  <p>1/9</p>
-                </div>
-            </div>
-            <img src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-               <strong>many, many likes</strong>
-              <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
-            </div>
-
-            <div class="titleOrder_container">
-               <div class="title_container">
-                  <h5 class="card-title">Ackee and saltfish, yum!</h5>
-               </div>
-               <div class="order_container">
-                  <p>2/9</p>
-                </div>
-            </div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhU57ocZVnAynlYQJUNMjh8_OyJu-8XrhhBuZ0BAJCV2SLCrbBIU148VnGp9M4WtCHkTc&usqp=CAU" class="card-img-top" alt="...">
-            <div class="card-body">
-               <strong>many, many likes</strong>
-              <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
-            </div>
-
-            <div class="titleOrder_container">
-               <div class="title_container">
-                  <h5 class="card-title">Tasty tacos!</h5>
-               </div>
-               <div class="order_container">
-                  <p>3/9</p>
-                </div>
-            </div>
-            <img src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-               <strong>many, many likes</strong>
-              <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
-            </div>
-            
-            <div class="titleOrder_container">
-               <div class="title_container">
-                  <h5 class="card-title">Tasty tacos!</h5>
-               </div>
-               <div class="order_container">
-                  <p>4/9</p>
-                </div>
-            </div>
-            <img src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-               <strong>many, many likes</strong>
-              <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
-            </div>
-
-            <div class="titleOrder_container">
-               <div class="title_container">
-                  <h5 class="card-title">Tasty tacos!</h5>
-               </div>
-               <div class="order_container">
-                  <p>5/9</p>
-                </div>
-            </div>
-            <img src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-               <strong>many, many likes</strong>
-              <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
-            </div>
-
-            <div class="titleOrder_container">
-               <div class="title_container">
-                  <h5 class="card-title">Tasty tacos!</h5>
-               </div>
-               <div class="order_container">
-                  <p>6/9</p>
-                </div>
-            </div>
-            <img src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-               <strong>many, many likes</strong>
-              <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
-            </div>
-
-            <div class="titleOrder_container">
-               <div class="title_container">
-                  <h5 class="card-title">Tasty tacos!</h5>
-               </div>
-               <div class="order_container">
-                  <p>7/9</p>
-                </div>
-            </div>
-            <img src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-               <strong>many, many likes</strong>
-              <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
-            </div>
-
-            <div class="titleOrder_container">
-               <div class="title_container">
-                  <h5 class="card-title">Tasty tacos!</h5>
-               </div>
-               <div class="order_container">
-                  <p>8/9</p>
-                </div>
-            </div>
-            <img src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-               <strong>many, many likes</strong>
-              <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
-            </div>
-
-            <div class="titleOrder_container">
-               <div class="title_container">
-                  <h5 class="card-title">Tasty tacos!</h5>
-               </div>
-               <div class="order_container">
-                  <p>9/9</p>
-                </div>
-            </div>
-            <img src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-               <strong>many, many likes</strong>
-              <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
-            </div>
-
-          </div>
-         <!-- end of card -->
+      <!-- page toggle -->
+      <div>
+         <ul class="nav nav-tabs d-flex justify-content-center">
+            <li class="nav-item">
+               <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                  role="tab" aria-controls="home" aria-selected="true">
+                  <i class="fa-solid fa-square fa-lg px-2 py-2"></i>
+               </button>
+            </li>
+            <li class="nav-item">
+               <button class="nav-link" id="grid-tab" data-bs-toggle="tab" data-bs-target="#grid" type="button"
+                  role="tab" aria-controls="grid" aria-selected="false">
+                  <i class="fa-solid fa-table-cells fa-lg px-2 py-2"></i>
+               </button>
+            </li>
+         </ul>
       </div>
-      <!-- feed -->
-      <div class="tab-pane" id="grid" role="tabpanel" aria-labelledby="grid-tab" tabindex="0">
-         <div class="d-flex flex-wrap w-80 mx-auto">
-            <div><img src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg" height="240px" class="m-1"/></div>
-            <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhU57ocZVnAynlYQJUNMjh8_OyJu-8XrhhBuZ0BAJCV2SLCrbBIU148VnGp9M4WtCHkTc&usqp=CAU" height="240px" class="m-1"/></div>
-            <div><img src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg" height="240px" class="m-1"/></div>
-            <div><img src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg" height="240px" class="m-1"/></div>
-            <div><img src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg" height="240px" class="m-1"/></div>
-            <div><img src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg" height="240px" class="m-1"/></div>
-            <div><img src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg" height="240px" class="m-1"/></div>
-            <div><img src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg" height="240px" class="m-1"/></div>
-            <div><img src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg" height="240px" class="m-1"/></div>
+
+      <div class="tab-content my-2">
+         <!-- post -->
+         <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            <!-- start of cards -->
+            <div class="card mx-auto" style="width: 30rem;">
+               <div class="titleOrder_container">
+                  <div class="title_container">
+                     <h5 class="card-title">Tasty tacos!</h5>
+                  </div>
+                  <div class="order_container">
+                     <p>1/9</p>
+                  </div>
+               </div>
+               <img
+                  src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg"
+                  class="card-img-top" alt="...">
+               <div class="card-body">
+                  <strong>many, many likes</strong>
+                  <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
+               </div>
+            </div>
+
+            <div class="card mx-auto" style="width: 30rem;">
+               <div class="titleOrder_container">
+                  <div class="title_container">
+                     <h5 class="card-title">Ackee and saltfish, yum!</h5>
+                  </div>
+                  <div class="order_container">
+                     <p>2/9</p>
+                  </div>
+               </div>
+               <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhU57ocZVnAynlYQJUNMjh8_OyJu-8XrhhBuZ0BAJCV2SLCrbBIU148VnGp9M4WtCHkTc&usqp=CAU"
+                  class="card-img-top" alt="...">
+               <div class="card-body">
+                  <strong>many, many likes</strong>
+                  <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
+               </div>
+            </div>
+
+            <div class="card mx-auto" style="width: 30rem;">
+               <div class="titleOrder_container">
+                  <div class="title_container">
+                     <h5 class="card-title">Tasty tacos!</h5>
+                  </div>
+                  <div class="order_container">
+                     <p>3/9</p>
+                  </div>
+               </div>
+               <img
+                  src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg"
+                  class="card-img-top" alt="...">
+               <div class="card-body">
+                  <strong>many, many likes</strong>
+                  <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
+               </div>
+            </div>
+
+            <div class="card mx-auto" style="width: 30rem;">
+               <div class="titleOrder_container">
+                  <div class="title_container">
+                     <h5 class="card-title">Tasty tacos!</h5>
+                  </div>
+                  <div class="order_container">
+                     <p>4/9</p>
+                  </div>
+               </div>
+               <img
+                  src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg"
+                  class="card-img-top" alt="...">
+               <div class="card-body">
+                  <strong>many, many likes</strong>
+                  <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
+               </div>
+            </div>
+
+            <div class="card mx-auto" style="width: 30rem;">
+               <div class="titleOrder_container">
+                  <div class="title_container">
+                     <h5 class="card-title">Tasty tacos!</h5>
+                  </div>
+                  <div class="order_container">
+                     <p>5/9</p>
+                  </div>
+               </div>
+               <img
+                  src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg"
+                  class="card-img-top" alt="...">
+               <div class="card-body">
+                  <strong>many, many likes</strong>
+                  <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
+               </div>
+            </div>
+
+            <div class="card mx-auto" style="width: 30rem;">
+               <div class="titleOrder_container">
+                  <div class="title_container">
+                     <h5 class="card-title">Tasty tacos!</h5>
+                  </div>
+                  <div class="order_container">
+                     <p>6/9</p>
+                  </div>
+               </div>
+               <img
+                  src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg"
+                  class="card-img-top" alt="...">
+               <div class="card-body">
+                  <strong>many, many likes</strong>
+                  <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
+               </div>
+            </div>
+
+            <div class="card mx-auto" style="width: 30rem;">
+               <div class="titleOrder_container">
+                  <div class="title_container">
+                     <h5 class="card-title">Tasty tacos!</h5>
+                  </div>
+                  <div class="order_container">
+                     <p>7/9</p>
+                  </div>
+               </div>
+               <img
+                  src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg"
+                  class="card-img-top" alt="...">
+               <div class="card-body">
+                  <strong>many, many likes</strong>
+                  <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
+               </div>
+            </div>
+
+            <div class="card mx-auto" style="width: 30rem;">
+               <div class="titleOrder_container">
+                  <div class="title_container">
+                     <h5 class="card-title">Tasty tacos!</h5>
+                  </div>
+                  <div class="order_container">
+                     <p>8/9</p>
+                  </div>
+               </div>
+               <img
+                  src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg"
+                  class="card-img-top" alt="...">
+               <div class="card-body">
+                  <strong>many, many likes</strong>
+                  <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
+               </div>
+            </div>
+
+            <div class="card mx-auto" style="width: 30rem;">
+               <div class="titleOrder_container">
+                  <div class="title_container">
+                     <h5 class="card-title">Tasty tacos!</h5>
+                  </div>
+                  <div class="order_container">
+                     <p>9/9</p>
+                  </div>
+               </div>
+               <img
+                  src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg"
+                  class="card-img-top" alt="...">
+               <div class="card-body">
+                  <strong>many, many likes</strong>
+                  <p class="card-text">This is an example of a very good photo that you can post on Instagram</p>
+               </div>
+            </div>
 
          </div>
-      </div>
-    </div>
-    
-   </div>
+         <!-- end of cards -->
+
+         <!-- feed -->
+         <div class="tab-pane" id="grid" role="tabpanel" aria-labelledby="grid-tab" tabindex="0">
+            <div class="d-flex flex-wrap mx-auto grid">
+               <div><img
+                     src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg"
+                     height="240px" class="m-1" /></div>
+               <div><img
+                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhU57ocZVnAynlYQJUNMjh8_OyJu-8XrhhBuZ0BAJCV2SLCrbBIU148VnGp9M4WtCHkTc&usqp=CAU"
+                     height="240px" class="m-1" /></div>
+               <div><img
+                     src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg"
+                     height="240px" class="m-1" /></div>
+               <div><img
+                     src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg"
+                     height="240px" class="m-1" /></div>
+               <div><img
+                     src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg"
+                     height="240px" class="m-1" /></div>
+               <div><img
+                     src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg"
+                     height="240px" class="m-1" /></div>
+               <div><img
+                     src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg"
+                     height="240px" class="m-1" /></div>
+               <div><img
+                     src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg"
+                     height="240px" class="m-1" /></div>
+               <div><img
+                     src="https://familiakitchen.com/wp-content/uploads/2021/01/iStock-960337396-3beef-barbacoa-tacos-e1695391119564.jpg"
+                     height="240px" class="m-1" /></div>
+
+            </div>
+         </div> <!-- Closing div for grid tab-pane -->
+      </div> <!-- Closing div for tab-content -->
+   </div> <!-- Closing div for container -->
+
 
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
